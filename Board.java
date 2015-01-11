@@ -135,7 +135,7 @@ public class Board extends JPanel implements KeyListener, ActionListener{
 	
 	
 	Scanner sc=null;
-	String mapS = "map" + mapNo + ".txt";
+	String mapS = "../res/map" + mapNo + ".txt";
 	try{
 	    sc = new Scanner(new File(mapS));
 	}catch(Throwable e){
